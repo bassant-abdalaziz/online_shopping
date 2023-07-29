@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Shopping</title>
+</head>
+
+<body>
+
+    <!-- start navbar -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo" />
+        </a>
+        <ul class="navbar">
+
+            <div class="userInfo">
+                <a href="favourite.html">Favourite</a>
+                <div class="cart_icon">
+                    <i class="fa-solid fa-cart-shopping" id="cart-shopping"></i>
+                    <span class="bedge">0</span>
+                    <div class="menuCart">
+                        <div class="close">x</div>
+                        <div class="addedProducts"></div>
+                        <a href="cartProducts.html">view all</a>
+                    </div>
+                </div>
+                <a href="#" id="user">Bassant123</a>
+                <a href="#" id="logout">log out</a>
+            </div>
+        </ul>
+
+        <div class="links">
+            <a href="signup.html">sign up</a>
+            <a href="login.html">sign in</a>
+        </div>
+
+        <i class="fa fa-bars" id="menu"></i>
+    </header>
+    <!-- end navbar  -->
+
+
+    <!-- start Home Section -->
+    <div class="home" id="home">
+        <div class="container">
+            <div class="content">
+                <h1>find the best style fashion for you</h1>
+                <h3>There is all that women need. </h3>
+            </div>
+
+            <div class="image">
+                <img src="images/header.png">
+            </div>
+        </div>
+    </div>
+    <!-- End Home Section -->
+
+
+    <!-- start about -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="img-container">
+                    <img src="images/about.png" alt="about">
+                </div>
+
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Wide variety of clothing options, this includes different sizes, styles, colors, and designs.
+                        Affordable pricing: People often look for affordable clothing options while shopping
+                        online.High-quality products that are durable and long-lasting with clear and concise product
+                        descriptions and images. This makes it easier for customers to find what they are looking for.
+                    </p>
+
+                    <p>
+                        Overall, people choose online clothing stores for women that offer a great shopping experience,
+                        quality products, and excellent customer service.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start icons section  -->
+    <section class="icons-container">
+        <div class="container">
+            <div class="icons">
+                <img src="images/icon-1.png" alt="icon1">
+                <div class="info">
+                    <h3>free delivery</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="images/icon-2.png" alt="icon2">
+                <div class="info">
+                    <h3>10 days returns</h3>
+                    <span>moneyback guarantee</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="images/icon-3.png" alt="icon3">
+                <div class="info">
+                    <h3>offer & gifts</h3>
+                    <span>on all orders</span>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="images/icon-4.png" alt="icon4">
+                <div class="info">
+                    <h3>secure paymens</h3>
+                    <span>protected by paypal</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ends icons section -->
+
+
+    <!-- start prodcuts section -->
+    <div class="container">
+        <input type="search" id="search" placeholder="search by name ...">
+        <div class="filterBtns">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Bags</button>
+            <button class="filter-btn">Dresses</button>
+            <button class="filter-btn">Pants</button>
+            <button class="filter-btn">Blouses</button>
+            <button class="filter-btn">Shoes</button>
+            <button class="filter-btn">Accessories</button>
+        </div>
+    </div>
+
+    <div class="products" id="product">
+        <div class="container">
+            <div class="allProducts">
+
+            </div>
+        </div>
+    </div>
+    <!-- end prodcuts section -->
+
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <img src="images/logo.png" alt="Logo">
+            <p>We Are Social</p>
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-home"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+            <p class="copyright">&COPY; 2023 <span>Shopping</span> All Right Reserved</p>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
